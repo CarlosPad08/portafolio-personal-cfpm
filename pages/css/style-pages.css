@@ -1,0 +1,55 @@
+:root {
+    --background-color: #f5f6f7;
+    --primary-color: #0d1b2aff;
+    --secundary-color: #1b263bff;
+    --tertiary-color: #415a77ff;
+    --quaternary-color: #778da9ff;
+    --quinary-color: #e0e1ddff;
+}
+  
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: var(--background-color);
+    text-align: start;
+    margin: 0;
+}
+
+/* Estilos generales */
+
+.title-article {
+    font-size: 2.5rem;
+    padding: 5px 5px 5px 0;
+    color: var(--quaternary-color);
+}
+
+.subtitle-article {
+    font-size: 1rem;
+    color: var(--quaternary-color);
+}
+
+/* Estilo de la hoja */
+.container {
+    background-color: var(--secundary-color);
+    border-radius: 10px;
+}
+
+.container header {
+    padding: 10px;
+}
+
+.article-content {
+    padding: 10px;
+}
+
+.article-content p {
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: var(--background-color);
+}
+
+/* Estilo para navegador */
+@media screen and (min-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+}

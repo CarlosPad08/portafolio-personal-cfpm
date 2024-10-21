@@ -1,0 +1,334 @@
+:root {
+  --background-color: #f5f6f7;
+  --primary-color: #0d1b2aff;
+  --secundary-color: #1b263bff;
+  --tertiary-color: #415a77ff;
+  --quaternary-color: #778da9ff;
+  --quinary-color: #e0e1ddff;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+/* Estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.section-dark {
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.section-light {
+  background-color: var(--quinary-color);
+  color: var(--primary-color);
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.section-description{
+  font-size: 1.2rem;
+  color: var(--tertiary-color);
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.section-text {
+  font-size: 1.2rem;
+}
+
+.text-black{
+  color: var(--primary-color);
+}
+
+.text-white{
+  color: var(--quinary-color);
+}
+
+/* Barra de navegacion */
+.navbar {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.navbar-collapse {
+  flex-direction: row-reverse;
+}
+
+/* Seccion Hero */
+.hero {
+  background-color: var(--background-color);
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-container {
+  padding: 3rem;
+}
+
+.hero-container h2 {
+  font-size: 1.5rem;
+  padding: 0 20px 0 20px;
+  color: var(--quaternary-color);
+}
+
+.hero-img {
+  width: 200px;
+  max-width: 200px;
+  margin: 20px;
+  border: 2px solid var(--tertiary-color);
+}
+
+/* Seccion sobre mi */
+
+.about-me {
+  height: 500px;
+  padding: 2rem;
+}
+
+.about-me .container {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Seccion de experiencia */
+.experience {
+  padding: 15px 15px 20px 15px;
+}
+
+.experience .column {
+  padding: 20px;
+  border: 2px solid var(--quaternary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.3s ease-in;
+}
+
+.experience .column:hover {
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.experience i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  background-color: var(--quinary-color);
+  padding: 8px 18px;
+  border-radius: 50%;
+}
+
+.badges-container {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.badge {
+  padding: 8px;
+  margin: 6px;
+}
+
+/* Seccion de Proyectos */
+.proyects-all {
+  padding: 40px;
+}
+
+.proyects-all img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.proyects-container {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.proyects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  transition: all 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50% -50%);
+  text-align: center;
+}
+
+.overlay h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.overlay .icons-container {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+.proyects:hover .overlay {
+  opacity: 1;
+}
+
+.proyects:hover img {
+  opacity: 0.2;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Seccion de Articulos */
+.articles {
+  min-height: 420px;
+  padding: 30px;
+}
+
+.articles .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articles .card-header {
+  font-weight: bold;
+}
+
+/* Seccion de Contacto */
+.contact .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contact .rectangle {
+  margin-top: -5rem;
+  background-color: var(--quaternary-color);
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px 1px var(--quinary-color);
+}
+
+.contact .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact .description {
+  color: var(--quinary-color);
+  font-size: 1.3rem;
+}
+
+.contact .btn-personalized {
+  background-color: var(--secundary-color);
+  color: var(--quinary-color);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.contact .btn-personalized:hover {
+  background-color: var(--quinary-color);
+  color: var(--secundary-color);
+}
+
+.text-contact-to-testimony {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Footer */
+footer {
+  min-height: 400px;
+}
+
+.footer-logo{
+  margin: 20px;
+}
+
+.footer-logo i {
+  font-size: 3.3rem;
+  color: white;
+}
+
+.footer-text {
+  font-size: 1.3rem;
+  line-height: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.icons-social a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid var(--quaternary-color);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.icons-social i {
+  font-size: 1.5rem;
+  color: var(--quaternary-color);
+  transition: all 0.2s ease-in;
+}
+
+.icons-social a:hover {
+  background-color: var(--quaternary-color);
+  border: 2px solid rgb(68, 68, 231);
+}
+
+.icons-social a:hover i {
+  color: var(--quinary-color);
+}
+
+.copyrigth {
+  font-size: 0.8rem;
+  padding: 20px;
+  color: var(--quaternary-color);
+}
+
+/* Diseño responsivo */
+@media screen and (max-width: 480px) {
+  .articles {
+    min-height: 500px;
+  }
+}

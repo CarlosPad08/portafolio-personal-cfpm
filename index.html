@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlos Fernando Padilla Mesa" />
+    <meta name="description" content="Portafolio de Carlos Fernando Padilla Mesa" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Carlos Padilla" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Titulo -->
+    <title>Carlos Padilla | Desarrollo Web</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./public/suitcase-lg.svg" />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./public/code-slash.svg" alt="Icono" width="28">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-togglerB" aria-controls="navbar-togglerB" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-togglerB">
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me-id">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyects-id">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-id">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Testimonios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section id="hero-id" class="hero align-items-stretch">
+    <div class="hero-container d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-img rounded-circle" src="./public/personal.jpg" alt="Foto de Carlos Padilla">
+      <h1>Hola, Soy Carlos Padilla</h1>
+      <h2>Soy Ingeniero de Sistemas y Desarrollador Web, me encanta programar y crear aplicaciones web</h2>
+    </div>
+    </section>
+    <!-- Sobre mi -->
+    <section id="about-me-id" class="about-me section-dark">
+    <div class="container">
+      <h2 class="section-title">Conoce un poco sobre mi</h2>
+      <p class="section-text">Soy estudiante de ingenieria de Sistemas en ultimos semestres, apasionado por la tecnología y con excelentes habilidades de trabajo en equipo, comunicación y liderazgo, ademas con una gran capacidad de aprendizaje y adaptación a nuevas herramientas y tecnologías.</p>
+    </div>
+    </section>
+    <!-- Experiencia -->
+    <section id="experience-id" class="experience section-ligth">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo -->
+          <div class="column col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <h3>Desarrollo Web</h3>
+            <p>Como Desarrollador Web, me he formado tanto en la Universidad del Valle como a través de un bootcamp especializado en Talento Tech, complementado por diversos cursos adicionales. Cuento con un sólido dominio de JavaScript, el cual utilizo para desarrollar aplicaciones modernas y dinámicas. Mi experiencia incluye el uso de tecnologías clave como Node.js, Express y React, así como una sólida comprensión de los principios fundamentales de HTML y CSS. Actualmente, me encuentro perfeccionando mis habilidades en Docker y deployment en servidores, con el objetivo de optimizar la implementación y escalabilidad de proyectos web.</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">HTML & CSS</span>
+              <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+              <span class="badge rounded-pill text-bg-primary">Python</span>
+              <span class="badge rounded-pill text-bg-primary">Node.js & Express</span>
+              <span class="badge rounded-pill text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="column col-12 col-md-4">
+            <i class="bi bi-pen"></i>
+            <h3>Articulos</h3>
+            <p>Además de mi formación técnica, disfruto escribir artículos dirigidos a estudiantes de primer semestre y aquellos que están dando sus primeros pasos en la universidad o en el campo de la programación. Mi objetivo es ofrecer una guía de orientación más que de estudio, abordando temas que les ayuden a aclarar dudas comunes y tomar decisiones informadas. Algunos de mis artículos incluyen títulos como "No aprendas tantos lenguajes de programación", "Qué hacer en primer semestre" y "Qué es esta carrera", con la intención de acompañar y facilitar su adaptación en esta nueva etapa académica.</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">Escribir</span>
+              <span class="badge rounded-pill text-bg-primary">Publicar</span>
+              <span class="badge rounded-pill text-bg-primary">Ayuda</span>
+            </div>
+          </div>
+          <!-- Estudios -->
+          <div class="column col-12 col-md-4">
+            <i class="bi bi-journals"></i>
+            <h3>Estudios</h3>
+            <p>Estudiante de Ingeniería de Sistemas en la Universidad del Valle, donde he desarrollado una sólida base en algoritmia, estructuras de datos y gestión de bases de datos. Mi formación abarca el análisis y diseño de sistemas complejos, con un enfoque especial en la optimización y desarrollo de software de alto rendimiento. Poseo un dominio avanzado de Python, siendo este mi lenguaje principal de programación, y me destaco por la capacidad de aplicar estos conocimientos a la resolución de problemas reales de manera eficiente y efectiva.</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">Universidad del Valle</span>
+              <span class="badge rounded-pill text-bg-primary">Udemy</span>
+              <span class="badge rounded-pill text-bg-primary">Codigo Facilito</span>
+              <span class="badge rounded-pill text-bg-primary">Bootcamp Talento Tech</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos -->
+    <section id="proyects-id" class="proyects-all section-ligth d-flex flex-column">
+      <h2 class="section-title text-black">Todos mis proyectos</h2>
+      <h3 class="section-description">Estos son algunos proyectos recientes creados con diversa tecnologias:</h3>
+      <!-- Galeria de proyectos -->
+      <!-- Proyecto 1 -->
+      <div class="container text-center proyects-container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyects">
+              <img src="./public/proyecto1.jpeg" alt="Imagen del proyecto 1">
+              <div class="overlay">
+                <h4>Proyecto 1</h4>
+                <div class="icons-container">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="icon">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyects">
+              <img src="./public/proyecto2.jpeg" alt="Imagen del proyecto 1">
+              <div class="overlay">
+                <h4>Proyecto 2</h4>
+                <div class="icons-container">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="icon">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyects">
+              <img src="./public/proyecto3.jpeg" alt="Imagen del proyecto 1">
+              <div class="overlay">
+                <h4>Proyecto 3</h4>
+                <div class="icons-container">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="icon">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/CarlosPad08?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info"><i class="bi bi-arrow-right-circle-fill"></i> Ver mas proyectos</button>
+      </a>
+    </section>
+    <!-- Articulos -->
+    <section id="articles-id" class="articles justify-content-start section-dark">
+      <h2 class="section-title">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="./pages/article-aprovecha-los-primeros-semestres.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprovecha los primeros semestres</li>
+          </a>
+          <a href="./pages/article-no-pienses-en-tantos-lenguajes.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">No pienses en tantos lenguajes</li>
+          </a>
+          <a href="./pages/article-que-lenguajes-de-programacion-aprender.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Que lenguajes de programacion aprender</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonios (NO disponible por ahora) -->
+    <!-- Contacto -->
+    <sction id="contact-id" class="contact section-ligth">
+      <div class="container">
+        <div class="container rectangle text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 section-title text-white">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Contactame para iniciar un proyecto juntos
+              <p class="text-contact-to-testimony"> Quieres dejarme un mensaje sobre los proyectos o articulos, no dudes en hacerlo <br> ¡Saldras en la seccion de testimonios!</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:carlosfpm-@hotmail.com">
+                <button type="button" class="btn-personalized">
+                  <i class="bi bi-envelope-fill"></i> Enviar correo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sction> 
+    <!-- Footer -->
+    <footer class="section-dark d-flex flex-column align-items-center justify-content-center">
+      <div class="footer-logo">
+        <i class="bi bi-code-square"></i>
+      </div>
+      <p class="footer-text">Carlos Fernando Padilla Mesa</p>
+      <p class="footer-text">Ingeniero de Sistemas | Desarrollador Web</p>
+      <div class="icons-social d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.linkedin.com/in/carlospadillamesa/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/carp_mesa/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://t.me/carp_mesa" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-telegram"></i>
+        </a>
+        <a href="mailto:carlosfpm-@hotmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+      </div>
+      <div class="copyrigth">
+        Creado por Carlos Padilla Mesa (2024) &copy;
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
