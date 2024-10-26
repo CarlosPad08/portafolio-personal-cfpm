@@ -233,6 +233,12 @@ h1 {
   padding: 20px;
 }
 
+.contact .container-fluid {
+  margin-top: 10px;
+  padding-inline: 30px;
+  border-top: var(--tertiary-color) 2px solid;
+}
+
 .contact .rectangle {
   margin-top: -5rem;
   background-color: var(--quaternary-color);
@@ -267,9 +273,25 @@ h1 {
   color: var(--secundary-color);
 }
 
+.contact .btn-form {
+  padding: 8px 18px;
+  font-size: 0.8rem;
+}
+
+.contact .btn-send {
+  padding: 8px 18px;
+  font-size: 1rem;
+}
+
 .text-contact-to-testimony {
   font-size: 0.9rem;
   margin-top: 5px;
+}
+
+.form-personalized {
+  background-color: red;
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Footer */
